@@ -1,0 +1,15 @@
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\bin\Debug\Shuffle it Up !!!.exe
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\bin\Debug\Shuffle it Up !!!.pdb
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\bin\Debug\Shuffle it Up !!!.xml
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\obj\x86\Debug\Shuffle it Up !!!.exe
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\obj\x86\Debug\Shuffle it Up !!!.xml
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\obj\x86\Debug\Shuffle it Up !!!.pdb
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\bin\Debug\Shuffle it Up !!!.exe.manifest
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\bin\Debug\Shuffle it Up !!!.application
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\obj\x86\Debug\Shuffle it Up !!!.exe.manifest
+C:\Users\student\Desktop\Anmol\Shuffle-Game\Shuffle it Up !!!\Shuffle it Up !!!\obj\x86\Debug\Shuffle it Up !!!.application

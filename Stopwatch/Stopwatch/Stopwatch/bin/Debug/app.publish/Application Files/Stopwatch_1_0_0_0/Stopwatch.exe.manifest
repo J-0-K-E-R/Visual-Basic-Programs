@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Stopwatch.exe" version="1.0.0.0" publicKeyToken="2a66efada685e2df" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Stopwatch" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Stopwatch.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Stopwatch.exe" size="23552">
+      <assemblyIdentity name="Stopwatch" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>OiciFgQIYQ1Qp9hC6boeFAzfGGo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=admin\student" issuerKeyHash="3d17adf72df536f7734436c37769379d9710d174" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>41e9/xpIKi+TbIkNRl2ypqT+Vq8=</DigestValue></Reference></SignedInfo><SignatureValue>WSJkBoVlFT7UzXu1s7OAgHm4nHbwOIU3wF+kXtaVReUVV+5u5Mr/rR7VocaX/lqn53NDM7wQtByrn0pp2VHS+8YFW4p1bzj/YWxLY7bcJ4ySJhYgYZFKi6X/X5Z/RuIDQCc7lsrZNHHcBZs2PgkfmJ3GmXkkgDPqZI/F1//EaN8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pUo/dz7FVokBahRMLpclv01OUxS11+XYusc8tEWCEcL3PuZLgmEb0q4Bd+2pzbGkTufUCz1OGpXRrpCbhzLuJicebDQMxvmES36sOQ08P9nkOYhPLiMEHW//M4VwYTeanS7QIVr9eBo1dBn29ud9LdA/+WeYyTOZ7YSKxoIewvU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="af56fea4a6b25d460d896c932f2a481affbd57e3" Description="" Url=""><as:assemblyIdentity name="Stopwatch.exe" version="1.0.0.0" publicKeyToken="2a66efada685e2df" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=admin\student</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>erNJonUO2wkDIBhK5pAzV/CHXQA=</DigestValue></Reference></SignedInfo><SignatureValue>l197R+i0o+sbqHdEQzWH9zP6/XKmPIl+yKX1ze91uw6V0g3/5LqH7q7A9NEgPFZnjiYUjM9tPzYXrJXHNO2XM1aRJiKJ1mhEoeyhcEikKREMBokh9chzlyKGXytzcoK7fUoi+oydXQov8V63amVPV7QoV7qI3G782sHRyQrWZus=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pUo/dz7FVokBahRMLpclv01OUxS11+XYusc8tEWCEcL3PuZLgmEb0q4Bd+2pzbGkTufUCz1OGpXRrpCbhzLuJicebDQMxvmES36sOQ08P9nkOYhPLiMEHW//M4VwYTeanS7QIVr9eBo1dBn29ud9LdA/+WeYyTOZ7YSKxoIewvU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQGiLU+oA50rlKzHvTUtYDnjANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoAYQBkAG0AaQBuAFwAcwB0AHUAZABlAG4AdDAeFw0xNzAyMjExOTU5NTNaFw0xODAyMjIwMTU5NTNaMCUxIzAhBgNVBAMeGgBhAGQAbQBpAG4AXABzAHQAdQBkAGUAbgB0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClSj93PsVWiQFqFEwulyW/TU5TFLXX5di6xzy0RYIRwvc+5kuCYRvSrgF37anNsaRO59QLPU4aldGukJuHMu4mJx5sNAzG+YRLfqw5DTw/2eQ5iE8uIwQdb/8zhXBhN5qdLtAhWv14GjV0Gfb2530t0D/5Z5jJM5nthIrGgh7C9QIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAIhPHNqsv4V1n3LOPluTR9o0UQxbdgRlnByK056dvhF4AoW9n+xLV1vpWXU5daAGORrfhYOfZ9DenpX224AlDMI2MmKcUKJp9qY3g6nRvdccIOIll2EADwAwW3AgKJ3CmOvslJ3AbqzsafTxEwA/sARFs1jKSkn8cQcY19+lGC44</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
